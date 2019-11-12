@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registion</title>
+    <style>
+        body{
+            background-image: url("nen.png");
+        }
+        .form {
+            opacity: 0.7;
+            margin: auto;
+            margin-top: 150px;
+            width: 400px;
+            border: 1px solid white;
+            background: black;
+            height: 600px;
+            text-align: center;
+            color: white;   
+        }
+        input, button {
+            height: 20px;
+            margin-top: 20px;
+            border: none;
+        }
+        .test {
+            outline: none;
+            background-color: black;
+            border-bottom: 1px solid white;
+            color: white;
+            padding: 5px 8px;
+            width: 300px;
+            height: 40px;
+        }
+        button {
+            opacity: 2;
+            padding: 10px;
+            margin-top: 50px;
+            width: 320px;
+            height: 40px;
+            background: #008000;
+            color: white;
+            font-weight: bold;
+        }
+        button:hover {
+            background: tomato;
+            color: black;
+        }
+        .check {
+            position: relative;
+            top: 6px;
+        }
+        .name input {
+            display: inline;
+            width: 140px;
+        }
+        h1{
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    <form class="form" action="" method="get">
+        <h1>Register</h1>  
+        <div class="name">
+            <input class="test" type="text" placeholder="First name">
+            <input class="test" type="text" placeholder="Last name">
+        </div>
+        <input class="test" type="email" placeholder="Email">
+        <input class="test" type="text" placeholder="Username">
+        <input class="test" type="password" placeholder="Password">
+        <input class="test" type="password" placeholder="Confirm Password">
+        <div>
+            <input class="check" type="checkbox">
+            <small>I accept the Term of Use & Privace Policy</small>
+        </div>
+        <button>Register Now</button>
+    </form>
+</body>
+
+</html>
